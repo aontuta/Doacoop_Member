@@ -1,10 +1,40 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบข้อมูลสมาชิก</title>
+    <!-- Import Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Import Inter font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
     <base target="_top">
-  </head>
-  <body>
-    <a href="http://61.91.54.146:90/doa/d/index.php" target="_blank">ระบบข้อมูลสมาชิก</a>
-  </body>
+    <style>
+        /* Use a clean and modern font for the body */
+        body {
+            font-family: 'Sarabun', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 h-screen flex items-center justify-center">
+    <!-- 
+      The link is now styled as a button.
+      - bg-green-600: Sets the main background color to green.
+      - hover:bg-green-700: Darkens the button slightly when the mouse hovers over it for feedback.
+      - text-white: Makes the text color white for better contrast.
+      - font-bold: Makes the text bold.
+      - py-3 px-8: Adds vertical (py) and horizontal (px) padding for a larger, more clickable area.
+      - rounded-full: Creates fully rounded corners, giving it a "pill" shape.
+      - shadow-lg: Adds a pronounced shadow for a 3D effect.
+      - transition-all: Ensures all changes (like color and shadow) happen smoothly.
+      - transform hover:scale-105: Makes the button slightly larger on hover for a dynamic feel.
+    -->
+    <a href="http://61.91.54.146:90/doa/d/index.php" 
+       target="_blank" 
+       class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105">
+        เข้าระบบข้อมูลสมาชิก
+    </a>
+</body>
 </html>
